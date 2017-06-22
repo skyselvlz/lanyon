@@ -41,16 +41,64 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Maven Pro", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
 }
 
+/* Custom */
+strong {
+  font-weight: 500;
+}
+
+.list1 {
+  font-size: .8rem;
+  line-height: 1rem;
+}
+
+.list1 > li {
+   margin:0 0 10px 0;   
+}
+
+.list2 {
+  font-size: .8rem;
+}
+
+.list3 {
+  font-size: .8rem;
+  line-height: 1rem;
+}
+
+.list3 > li {
+   margin:0 0 -5px 0;   
+}
+
+.table1 {
+  font-size:.75rem;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+}
+
+p {
+  font-size: 0.85rem;
+}
+
+status {
+  font-weight: 500;
+  color: #8B0000;
+}
+
+.anchor {
+  color: #323232;
+}
 
 /*
  * Wrapper
@@ -148,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -368,7 +416,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
