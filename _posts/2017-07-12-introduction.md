@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introduction
+comments: true
 ---
 ![alt text](http://www.maciejratajski.com/sites/default/files/work/image/ratajski-this-is-an-image-of-a-setence.jpg "I really don't know if this is legal or not")
 
