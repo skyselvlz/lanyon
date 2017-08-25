@@ -8,6 +8,8 @@ permalink:           pretty
 title:               skyselvlz
 tagline:             'site'
 description:         'My own website'
+disqus_shortname:    skyselvlz
+
 # url:
 baseurl:             ''
 paginate:            5
